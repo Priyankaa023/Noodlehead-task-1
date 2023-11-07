@@ -1,0 +1,62 @@
+.henav{
+    display: flex;
+    overflow: hidden;
+}
+.helogo{
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+.helogo-overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    background-color:rgb(200,75,46);
+    z-index: -1;
+}
+.helogo h3 {
+    padding: 30px;
+    color: rgb(255,240,219);
+    font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  font-family: var(--playfair-display) 
+}
+.hemenu, .hemenu-mobile {
+    padding: 20px;
+    flex: 1.236;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 64px;
+  
+    list-style: none;
+}
+.hemenu a:hover{
+    background-color:rgb(200,75,46) ;
+    border-style: solid;
+    
+}
+.hemenu li {
+    font-weight: 500;
+    font-family: var(--plus-jakarta-sans);
+    color: #121212;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 20px;
+    cursor: pointer;
+  }
+  .hemenu li img {
+    width: 30px;
+    height: 24px;
+    object-fit: contain;
+  }
+  
+  .header__menu-mobile {
+    display: none;
+    gap: 20px;
+  
+    position: relative;
+  }
